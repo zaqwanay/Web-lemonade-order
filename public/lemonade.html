@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemonade Stand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/shared.css" />
+    <link rel="stylesheet" href="../src/lemonade.css" />
+  </head>
+  <body>
+    <a id="checkout" href="cart.html"></a>
+    <div class="container">
+      <div class="background">
+        <div class="glass-back">
+          <div class="glass-front"></div>
+        </div>
+      </div>
+      <div class="form-box">
+        <div name="lemonJuice" class="row">
+          <label> Lemon Juice </label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4 id=" lemonJuiceValue">3 ounces</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div name="water" class="row">
+          <label> Water</label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4 id="waterValue">3 ounces</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div name="sugar" class="row">
+          <label> Sugar </label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4 id="sugarValue">6 tablespoons</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div name="ice" class="row">
+          <label> Ice </label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4 id="iceValue">5 cubes</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <button class="yellow-button">Add to order</button>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src=" ../src/lemonade.js"></script>
+  </body>
+</html>
